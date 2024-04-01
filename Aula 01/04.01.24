@@ -1,1 +1,141 @@
+INDEX1.HTML
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<div class="div">
+    CSS IS <strong> AWESOME </strong>
+</div>
+<!-- Metodologia Bem - pesquisar sobre -->
+<div class="box"></div>
+<div class="box"></div>
+<div class="conteudo"> RICARDO PINIS</div>
+<div class="exercicio"> nadie </div>
+</body>
+</html>
 
+INDEX2.HTML
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<h3> Usando position </h3>
+<div>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Saepe delectus <span> ricardo pinis </span>adipisci vitae at quae nobis eaque
+        neque labore possimus dolores.
+    </p>
+    <div> class="position">
+        <p class="position__p"> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Deserunt dolorum, doloremque labore porro accusantium ipsum rerum.
+            Quae consequuntur perspiciatis quod?
+        </p>
+        <div class="position position__azul"></div>
+        <div class="position position__amarelo"></div>
+        <div class="position position__azul"></div>
+        <p class="position__p"> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Neque tempore quis temporibus ducimus officia eveniet?
+            Cumque atque voluptate consectetur eligendi.
+        </p>
+    </div>
+    <hr>
+    <hr>
+    <h3> Menu com submenu</h3>
+    </body>
+
+</html>
+
+STYLE1 CSS
+.div {
+    /* propriedades decorativas */
+    border: solid 1px black;
+    font-size: 32px;
+    font-family: Arial;
+    /* propriedades que fazem o "problema" */
+    width: 100px;
+    height: 110px;
+    overflow: hidden;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 20px 0;
+    /* Margem superior */
+}
+
+.conteudo {
+    border-top: solid 5px red;
+    border-right: solid 10px cyan;
+    border-bottom: solid 7px green;
+    border-left: solid 12px yellow;
+    border-radius: 10px;
+    text-align: center;
+    width: 180px;
+    height: 20px;
+    /* faz um circulo border-radius: 100%; */
+}
+
+.exercicio {
+    margin: 5px 8px;
+    padding: 6px 9px;
+    border-top: solid 5px green;
+    border-bottom: solid 5px red;
+    border-left:solid 5px purple;
+    border-right: solid 5px blue;
+    overflow: scroll;
+    font-size: 70px;
+    width: 135px;
+    height: 150px;
+}
+
+
+
+STYLE2 CSS
+p {
+    display: inline;
+    background-color: yellow;
+}
+
+span {
+    display: block;
+    background-color: grey;
+}   
+
+.position{
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+}
+.position__p{
+    font-size: 18px;
+}
+.position__azul{
+    width: 100px;
+    height: 100px;
+    border: solid 4px blue;
+    background-color: lightblue;
+}
+.position__amarelo{
+    width: 100px;
+    height: 100px;
+    border: solid 4px red;
+    background-color: yellow;
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
