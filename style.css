@@ -1,0 +1,79 @@
+div:hover {
+    color: orange;
+}
+
+input:focus {
+    background-color: yellow;
+}
+
+.bct:hover {
+    color: orange;
+}
+
+.HTML:active {
+    color: blueviolet;
+}
+
+.HTML:visited {
+    color: green;
+}
+
+.foco:focus {
+    background-color: red;
+}
+
+
+li:nth-child(2n+1) {
+    color: green;
+}
+
+/* li:nth-child(2n+2){
+    color:gold;
+}
+*/
+
+li:first-child {
+    color: orange;
+}
+
+li:last-child {
+    color: red;
+}
+
+li:not(.meu-item) {
+    color: orange;
+}
+
+:checked {
+    margin-left: 25px;
+}
+
+input[type="radio"]:checked {
+    margin-left: 25px;
+}
+
+input:disable{
+    background: #ccc;
+}
+
+input[type="text"]:disabled{
+    background: #ccc;
+}
+
+input[type=email]:invalid{
+    background: red;
+}
+
+input[type=text]:valid{
+    background: green;
+}
+
+p::first-letter{
+    color:red;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+p::first-line{
+    color:blue;
+}
