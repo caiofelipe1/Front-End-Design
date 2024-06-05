@@ -140,37 +140,6 @@ span {
     left: 40px;
 }
 
-ok, muito obrigado. queria dar continuação nesse código, o que você faria?
-lembrando que quero levar em consideração o seguinte "roteiro":
-For;
-Manipulação de Listas e Strings: Capacidade de manipular listas e strings,
-incluindo operações como adição, remoção, concatenação e iteração sobre os
-elementos;
-Conhecimento em Funções: Habilidade para criar e utilizar funções, incluindo
-a definição de funções com parâmetros e retorno de valores.
-ChatGPT
-Para expandir o código e levar em consideração o roteiro fornecido, podemos adicionar funcionalidades que envolvam manipulação de listas e strings, bem como criar funções para realizar tarefas específicas. Aqui estão algumas sugestões:
-
-Adicionar Opções para Adicionar e Remover Itens de uma Lista:
-
-Você pode adicionar opções no menu para permitir que os usuários adicionem ou removam itens de uma lista, como uma lista de notificações.
-As funções correspondentes podem ser criadas para manipular essas listas.
-Concatenação de Strings para Mensagens de Notificação:
-
-Ao enviar notificações sobre poluição ou outras informações importantes, você pode concatenar strings para criar mensagens claras e informativas.
-Funções podem ser criadas para formatar e enviar essas mensagens.
-Iteração sobre Elementos de uma Lista:
-
-Se você tiver listas de dados, como notificações ou informações sobre poluição, pode iterar sobre esses elementos para exibi-los de forma organizada.
-Funções podem ser usadas para realizar essa iteração e exibição.
-Definição de Funções para Tarefas Específicas:
-
-Crie funções separadas para realizar tarefas específicas, como adicionar ou remover itens de uma lista, formatar mensagens de notificação ou iterar sobre elementos de uma lista.
-Essas funções podem receber parâmetros e retornar valores conforme necessário.
-Aqui está um exemplo de como você poderia implementar parte dessas sugestões no seu código:
-
-python
-Copiar código
 def adicionar_notificacao(notificacoes):
     notificacao = input("Digite a notificação que deseja adicionar: ")
     notificacoes.append(notificacao)
