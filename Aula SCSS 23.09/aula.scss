@@ -1,0 +1,40 @@
+.msg {
+    border: 1px solid;
+    padding: 4px;
+    text-align: center;
+}
+.msg-error {
+    @extend.msg;
+    border-color: #ff0000;
+    color: #ff0000;
+}
+.msg-alert {
+    @extend.msg;
+    border-color: #ff8e00;
+    color: #ff8e00;
+}
+a:hover {
+    text-decoration: underline;
+}
+.hoverlink {
+    @extend a:hover;
+}
+h1 {
+    font-size: 5px * 2;
+}
+p {
+    $width: 1000px;
+    width: $width/2;
+}
+$width: 1000px;
+$base-size: 20px;
+$line-height: 22px;
+p {
+    font: 10px/8px bold italic serif;
+    width: $width/2;
+    width: round(1.5)/2;
+    height: (500px/2);
+    margin-left: 5px + 8px/2px;
+    font: italic bold 10px/8px;
+    font-size: #{$base-size} / #{$line-height};
+}
